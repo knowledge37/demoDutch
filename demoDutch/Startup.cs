@@ -23,6 +23,7 @@ namespace demoDutch
         {
             app.UseDefaultFiles();
             app.UseStaticFiles();
+
             app.UseNodeModules();
         }
     }
